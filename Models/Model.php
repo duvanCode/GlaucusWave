@@ -8,11 +8,11 @@ use PDOException;
 abstract class Model {
     
     public function conectarBD() {
-
-        $host = 'localhost';
-        $dbname = 'actividad_4';
-        $usuario = 'postgres';
-        $contrasena = 'prueba';
+        $env_vars = parse_ini_file(__DIR__ . '/../.env');
+        $host = $env_vars['DB_HOST'];
+        $dbname = $env_vars['DB_NAME'];
+        $usuario = $env_vars['DB_USER'];
+        $contrasena = $env_vars['DB_PASS'];
     
         try {
 

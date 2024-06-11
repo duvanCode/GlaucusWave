@@ -31,7 +31,14 @@ Este proyecto es una aplicación web simple para la gestión de usuarios (CRUD: 
 3. Configura la base de datos:
     - Crea una base de datos en MySQL.
     - Importa el archivo `database.sql` para crear las tablas necesarias.
-
+    
+4. Configura el archivo `.env`:
+    ```plaintext
+    DB_HOST=localhost
+    DB_NAME=nombre_de_tu_base_de_datos
+    DB_USER=tu_usuario
+    DB_PASS=tu_contraseña
+    ```
 5. Ejecuta el servidor local:
     ```bash
     php -S localhost:8000 -t public
