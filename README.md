@@ -19,8 +19,8 @@ Este proyecto es una aplicación web simple para la gestión de usuarios (CRUD: 
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/duvanCode/actividad4.git
-    cd actividad4
+    git clone https://github.com/duvanCode/GlaucusWave.git
+    cd GlaucusWave
     ```
 
 2. Instala las dependencias:
@@ -49,7 +49,7 @@ Este proyecto es una aplicación web simple para la gestión de usuarios (CRUD: 
 ## Estructura del Proyecto
 
 ```plaintext
-actividad4/
+GlaucusWave/
 ├── Controllers/
 ├── Models/
 ├── Views/
